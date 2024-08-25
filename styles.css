@@ -1,0 +1,61 @@
+
+body {
+   background-color: black;
+} 
+
+div {
+margin-left: 450px;
+margin-right: 450px;
+background-color: white;
+} 
+
+.profiltop, .image, .icons, .likes, .description{
+    display: flex;
+}
+
+.profiltop{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    border-top: 0%;
+    border-bottom: 0%;
+}
+
+}
+
+.profiltop h1{
+    display: block;
+    flex-direction: column;
+}
+
+.image img { 
+        height: auto;
+        max-width: 100%;     
+}
+      
+
+.icons {
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    border-top: 0%;
+    border-bottom: 0%;
+}
+
+.head{
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    border-top: 0%;
+    border-bottom: 0%;
+}
+
+.profiltop img{
+height: auto;
+max-width: 10%;
+border-radius: 5%;
+}
+
+
+
+
+
+
